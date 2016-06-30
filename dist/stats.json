@@ -1,0 +1,182 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "1.12.9",
+  "hash": "2f42fed9b9dbe5470c8e",
+  "publicPath": "",
+  "assetsByChunkName": {
+    "buddle": "2f42fed9b9dbe5470c8e.buddle.js"
+  },
+  "assets": [
+    {
+      "name": "2f42fed9b9dbe5470c8e.buddle.js",
+      "size": 3393,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "buddle"
+      ]
+    }
+  ],
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "extraAsync": false,
+      "size": 1754,
+      "names": [
+        "buddle"
+      ],
+      "files": [
+        "2f42fed9b9dbe5470c8e.buddle.js"
+      ],
+      "hash": "70bb45660e46de1e6271",
+      "parents": [],
+      "origins": [
+        {
+          "moduleId": 0,
+          "module": "c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\node_modules\\babel-loader\\index.js?{\"cacheDirectory\":true,\"presets\":[\"es2015\",\"react\",\"stage-0\"]}!c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\src\\main.js",
+          "moduleIdentifier": "c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\node_modules\\babel-loader\\index.js?{\"cacheDirectory\":true,\"presets\":[\"es2015\",\"react\",\"stage-0\"]}!c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\src\\main.js",
+          "moduleName": "./src/main.js",
+          "loc": "",
+          "name": "buddle",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\node_modules\\babel-loader\\index.js?{\"cacheDirectory\":true,\"presets\":[\"es2015\",\"react\",\"stage-0\"]}!c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\src\\main.js",
+      "name": "./src/main.js",
+      "index": 0,
+      "index2": 3,
+      "size": 304,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "source": "'use strict';\n\nrequire('index');\n\nrequire('../assets/a/help.jade');\n\nvar _homepage = require('./homepage/');\n\nvar _homepage2 = _interopRequireDefault(_homepage);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n_homepage2.default.init();\nconsole.log(101);"
+    },
+    {
+      "id": 1,
+      "identifier": "c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\node_modules\\webpack-path-rewriter\\index.js?{\"name\":\"[path][name].html\"}!c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\node_modules\\jade-html-loader\\index.js?pretty=true&title=Lullaby!c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\assets\\index.jade",
+      "name": "./assets/index.jade",
+      "index": 1,
+      "index2": 0,
+      "size": 37,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\node_modules\\babel-loader\\index.js?{\"cacheDirectory\":true,\"presets\":[\"es2015\",\"react\",\"stage-0\"]}!c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\src\\main.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\node_modules\\babel-loader\\index.js?{\"cacheDirectory\":true,\"presets\":[\"es2015\",\"react\",\"stage-0\"]}!c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\src\\main.js",
+          "module": "./src/main.js",
+          "moduleName": "./src/main.js",
+          "type": "cjs require",
+          "userRequest": "index",
+          "loc": "3:0-16"
+        },
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\node_modules\\babel-loader\\index.js?{\"cacheDirectory\":true,\"presets\":[\"es2015\",\"react\",\"stage-0\"]}!c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\src\\homepage\\index.js",
+          "module": "./src/homepage/index.js",
+          "moduleName": "./src/homepage/index.js",
+          "type": "cjs require",
+          "userRequest": "index",
+          "loc": "11:0-16"
+        }
+      ],
+      "source": "\nmodule.exports = \"assets/index.html\""
+    },
+    {
+      "id": 2,
+      "identifier": "c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\node_modules\\webpack-path-rewriter\\index.js?{\"name\":\"[path][name].html\"}!c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\node_modules\\jade-html-loader\\index.js?pretty=true&title=Lullaby!c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\assets\\a\\help.jade",
+      "name": "./assets/a/help.jade",
+      "index": 2,
+      "index2": 1,
+      "size": 38,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\node_modules\\babel-loader\\index.js?{\"cacheDirectory\":true,\"presets\":[\"es2015\",\"react\",\"stage-0\"]}!c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\src\\main.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\node_modules\\babel-loader\\index.js?{\"cacheDirectory\":true,\"presets\":[\"es2015\",\"react\",\"stage-0\"]}!c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\src\\main.js",
+          "module": "./src/main.js",
+          "moduleName": "./src/main.js",
+          "type": "cjs require",
+          "userRequest": "../assets/a/help.jade",
+          "loc": "5:0-32"
+        }
+      ],
+      "source": "\nmodule.exports = \"assets/a/help.html\""
+    },
+    {
+      "id": 3,
+      "identifier": "c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\node_modules\\babel-loader\\index.js?{\"cacheDirectory\":true,\"presets\":[\"es2015\",\"react\",\"stage-0\"]}!c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\src\\homepage\\index.js",
+      "name": "./src/homepage/index.js",
+      "index": 3,
+      "index2": 2,
+      "size": 1375,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\node_modules\\babel-loader\\index.js?{\"cacheDirectory\":true,\"presets\":[\"es2015\",\"react\",\"stage-0\"]}!c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\src\\main.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\node_modules\\babel-loader\\index.js?{\"cacheDirectory\":true,\"presets\":[\"es2015\",\"react\",\"stage-0\"]}!c:\\Users\\zhan.chen\\Desktop\\z-ch\\Lullaby\\src\\main.js",
+          "module": "./src/main.js",
+          "moduleName": "./src/main.js",
+          "type": "cjs require",
+          "userRequest": "./homepage/",
+          "loc": "7:16-38"
+        }
+      ],
+      "source": "'use strict';\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _class, _temp;\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\n\nrequire('index');\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\n'use strict';\n\nvar Homepage = (_temp = _class = function () {\n\tfunction Me() {\n\t\t_classCallCheck(this, Me);\n\n\t\tthis.visitors = 0;\n\t}\n\n\t_createClass(Me, [{\n\t\tkey: 'init',\n\t\tvalue: function init() {\n\t\t\tdocument.write(this.visitors);\n\t\t}\n\t}], [{\n\t\tkey: 'getInstance',\n\t\tvalue: function getInstance() {\n\t\t\tif (!Me.instance) {\n\t\t\t\tMe.instance = new Me();\n\t\t\t}\n\t\t\tMe.instance.visitors++;\n\t\t\treturn Me.instance;\n\t\t}\n\t}]);\n\n\treturn Me;\n}(), _class.instance = null, _temp);\n\nexports.default = function () {\n\n\treturn Homepage.getInstance();\n}();"
+    }
+  ],
+  "filteredModules": 0,
+  "children": []
+}
